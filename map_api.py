@@ -22,7 +22,7 @@ def return_map(lon, lat, z, map_type, tags, img_scale):
         return response.content
 
 
-# если вместо координат топоним, то изпользуется Geocoder
+# если вместо координат топоним, то используется Geocoder
 # потом используется return_map
 def toponym_to_ll(name):
     geocoder = 'http://geocode-maps.yandex.ru/1.x/?'
